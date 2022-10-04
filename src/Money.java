@@ -13,12 +13,11 @@ class Unit {
             if(money > x) {
                 result = money/x;
                 money= money%x;
-                System.out.println(x+"원?"+result+"개");
 
             }else{
                 result = 0;
-                System.out.println(x + "원?"+result+"개");
             }
+            System.out.println(x+"원?"+result+"개");
         }
     }
 }
