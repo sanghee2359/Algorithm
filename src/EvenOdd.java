@@ -1,5 +1,3 @@
-package even_odd;
-
 import java.util.Scanner;
 
 public class EvenOdd {
