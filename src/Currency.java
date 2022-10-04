@@ -9,7 +9,6 @@ public class Currency {
         int curr3 = 5000;
         int curr4 = 1000;
         int curr5 = 500;
-
         // raw 익히지 않은 코딩
         int refund = 25000;
         System.out.printf("5만원 권 %d장 나머지 : %d원\n", refund/curr1, refund%curr1);
