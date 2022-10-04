@@ -10,12 +10,20 @@ public class Currency {
         int curr4 = 1000;
         int curr5 = 500;
         // raw 익히지 않은 코딩
-        int refund = 25000;
-        System.out.printf("5만원 권 %d장 나머지 : %d원\n", refund/curr1, refund%curr1);
-        System.out.printf("1만원 권 %d장 나머지 : %d원\n", refund/curr2, refund%curr2);
-        System.out.printf("5천원 권 %d장 나머지 : %d원\n", refund/curr3, refund%curr3);
-        System.out.printf("1천원 권 %d장 나머지 : %d원\n", refund/curr4, refund%curr4);
-        System.out.printf("500원 권 %d장 나머지 : %d원\n", refund/curr5,refund%curr5);
+        int refund = 25400;
+        System.out.printf("5만원 권 %d개 나머지 : %d원\n", refund/50000, refund%50000);
+        refund = refund % 50000;
+        System.out.printf("1만원 권 %d개 나머지 : %d원\n", refund/10000, refund);
+        refund = refund % 10000;
+        System.out.printf("5천원 권 %d개 나머지 : %d원\n", refund/5000, refund);
+        refund = refund % 5000;
+        System.out.printf("1천원 권 %d개 나머지 : %d원\n", refund/1000, refund);
+        refund = refund % 1000;
+        System.out.printf("500원 권 %d개 나머지 : %d원\n", refund/500,refund);
+        refund = refund % 500;
+        System.out.printf("100원 권 %d개 나머지 : %d원\n", refund/100,refund);
+        refund = refund % 100;
+        System.out.printf("50원 권 %d개 나머지 : %d원\n", refund/50,refund);
 
     }
 }
